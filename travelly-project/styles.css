@@ -232,7 +232,7 @@ h4 {
   border-radius: 20px;
 }
 
-#contact header {
+.form-head {
   text-align: center;
   padding: 4rem;
 }
@@ -259,38 +259,6 @@ h4 {
   padding: 1rem 3rem;
 }
 
-/* FOOTER SECTION */
-footer {
-  color: white;
-  background: rgba(19, 28, 39, 0.8);
-}
-
-footer h5 {
-  padding-bottom: 3rem;
-}
-
-.footer-wrapper {
-  display: flex;
-  padding: 2rem;
-  width: 90%;
-  margin: auto;
-  align-items: center;
-  min-height: 10vh;
-  flex-wrap: wrap;
-}
-
-footer h5 {
-  flex: 1 1 40rem;
-}
-
-footer ul {
-  display: flex;
-  list-style: none;
-  flex: 1 1 40rem;
-  justify-content: space-between;
-  align-items: center;
-}
-
 /* MEDIA QUERIES */
 @media screen and (max-width: 500px) {
   html {
@@ -314,12 +282,5 @@ footer ul {
   .locations-head h3 {
     background: rgba(19, 28, 39, 0.8);
     -webkit-text-fill-color: white;
-  }
-  .form-wrapper {
-    width: 100%;
-  }
-  footer h5 {
-    text-align: center;
-    padding-bottom: 4rem;
   }
 }
