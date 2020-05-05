@@ -62,6 +62,9 @@ button:hover {
 .main-head {
   background: #131c27;
   color: white;
+  position: sticky;
+  top: 0px;
+  z-index: 3;
 }
 
 nav {
@@ -123,6 +126,7 @@ nav ul {
 
 .locations-head {
   width: 90%;
+  margin-left: 5rem;
 }
 
 .locations-head h2 {
